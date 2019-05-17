@@ -1,8 +1,11 @@
 package exercises;
 
+
 import java.util.Scanner;
 
+
 public class MilesPerGallon {
+
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
@@ -13,5 +16,7 @@ public class MilesPerGallon {
 
         double milesPerGallon = m / g;
         System.out.println("Your gas mileage is " + milesPerGallon);
+
     }
+
 }

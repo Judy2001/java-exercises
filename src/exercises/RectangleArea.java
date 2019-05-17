@@ -1,6 +1,8 @@
 package exercises;
 
+
 import java.util.Scanner;
+
 
 public class RectangleArea {
 
@@ -14,5 +16,7 @@ public class RectangleArea {
 
         double area = l * w;
         System.out.println("The area of the rectangle is " + area);
+
     }
+
 }

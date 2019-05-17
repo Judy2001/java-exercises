@@ -1,6 +1,8 @@
 package exercises;
 
+
 import java.util.Scanner;
+
 
 public class Alice {
 
@@ -22,5 +24,7 @@ public class Alice {
         } else {
             System.out.println("Your term '" + searchTerm + "' does not appear in the sentence.");
         }
+
     }
+
 }

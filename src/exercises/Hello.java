@@ -1,6 +1,8 @@
 package exercises;
 
+
 import java.util.Scanner;
+
 
 public class Hello {
 
@@ -10,4 +12,5 @@ public class Hello {
         String name = s.nextLine();
         System.out.println("Hello " + name + "!");
     }
+
 }
