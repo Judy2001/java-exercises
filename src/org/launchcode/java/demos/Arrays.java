@@ -1,8 +1,11 @@
 package org.launchcode.java.demos;
 
+
 /**
  * Created by LaunchCode
  */
+
+
 public class Arrays {
 
     public static void main(String[] args) {
@@ -24,6 +27,7 @@ public class Arrays {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
+
     }
 
     public static void arrayCreation() {
@@ -44,6 +48,6 @@ public class Arrays {
             System.out.println(j);
         }
 
-
     }
+
 }

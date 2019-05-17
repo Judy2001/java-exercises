@@ -1,6 +1,8 @@
 package BankAccount;
 
+
 import java.util.Objects;
+
 
 public class BankAccount {
 
@@ -64,4 +66,5 @@ public class BankAccount {
         account2.deposit(1000);
         System.out.print(account1);
     }
+
 }

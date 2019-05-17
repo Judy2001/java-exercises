@@ -1,8 +1,11 @@
 package org.launchcode.java.demos;
 
+
 /**
  * Created by LaunchCode
  */
+
+
 public class Loops {
 
     public static void main(String[] args) {
@@ -29,5 +32,7 @@ public class Loops {
         for (char c : text.toCharArray()) {
             System.out.print(c);
         }
+
     }
+
 }

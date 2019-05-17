@@ -1,8 +1,11 @@
 package org.launchcode.java.demos;
 
+
 /**
  * Created by LaunchCode
  */
+
+
 public class Point {
 
     private double x;
@@ -57,4 +60,5 @@ public class Point {
 
         System.out.println("midpoint of p1 and p2: " + p1.computeMidpoint(p2));
     }
+
 }
