@@ -58,7 +58,5 @@ public class Menu {
             m.add(cake);
             m.add(chips);
             System.out.println(m);
-
         }
-
     }

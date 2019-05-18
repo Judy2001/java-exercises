@@ -15,7 +15,5 @@ public class CircleArea {
 
         double area = PI * (r * r);
         System.out.println("The area of the circle is " + area);
-
     }
-
 }

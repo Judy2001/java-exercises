@@ -2,6 +2,7 @@ package org.launchcode.java.studios.src.RestaurantMenu;
 
 
 public class MenuItem {
+
     private double price;
     private String description;
     private String category;
@@ -9,6 +10,7 @@ public class MenuItem {
 
 
     public MenuItem(double price, String desc, String category, boolean isNew) {
+
         this.price = price;
         this.description = desc;
         this.category = category;
@@ -45,5 +47,4 @@ public class MenuItem {
                 ", isNew=" + isNew +
                 '}';
     }
-
 }

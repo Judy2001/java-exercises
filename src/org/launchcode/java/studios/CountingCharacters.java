@@ -30,7 +30,5 @@ public class CountingCharacters {
         for (char k : counts.keySet()) {
             System.out.println(k + ": " + counts.get(k));
         }
-
     }
-
 }
