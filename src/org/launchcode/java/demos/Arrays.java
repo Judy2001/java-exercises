@@ -15,7 +15,6 @@ public class Arrays {
 
         System.out.println("arrayCreation :: ");
         arrayCreation();
-
     }
 
     public static void printArrayOfNumbers() {
@@ -27,7 +26,6 @@ public class Arrays {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
-
     }
 
     public static void arrayCreation() {
@@ -47,7 +45,5 @@ public class Arrays {
         for (int j : someOtherInts) {
             System.out.println(j);
         }
-
     }
-
 }

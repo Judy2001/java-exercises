@@ -1,5 +1,6 @@
 package org.launchcode.java.demos.java4python;
 
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -7,6 +8,7 @@ import java.util.Scanner;
 /**
  * Created by LaunchCode
  */
+
 public class GradebookHashMap {
 
     public static void main(String[] args) {
@@ -19,7 +21,6 @@ public class GradebookHashMap {
 
         // Get student names and grades
         do {
-
             System.out.print("Student: ");
             newStudent = in.nextLine();
 
@@ -46,5 +47,4 @@ public class GradebookHashMap {
         double avg = sum / students.size();
         System.out.println("Average grade: " + avg);
     }
-
 }

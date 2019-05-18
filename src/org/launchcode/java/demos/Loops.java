@@ -15,7 +15,6 @@ public class Loops {
 
         System.out.println("printCharactersFromAString :: ");
         printCharactersFromAString();
-
     }
 
     // Print integers from 0 to 10
@@ -32,7 +31,5 @@ public class Loops {
         for (char c : text.toCharArray()) {
             System.out.print(c);
         }
-
     }
-
 }

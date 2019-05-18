@@ -3,13 +3,16 @@ package org.launchcode.java.demos.java4python;
 /**
  * Created by LaunchCode
  */
+
 public class Temperature {
 
     private double fahrenheit;
 
+
     public double getFahrenheit() {
         return fahrenheit;
     }
+
 
     public void setFahrenheit(double fahrenheit) {
 
@@ -21,17 +24,19 @@ public class Temperature {
         this.fahrenheit = fahrenheit;
     }
 
+
     public double getCelsius() {
         return (fahrenheit - 32) * 5.0 / 9.0;
     }
+
 
     public void setCelsius(double celsius) {
         double fahrenheit = celsius * 9.0 / 5.0 + 32;
         setFahrenheit(fahrenheit);
     }
 
+
     public static void main(String[] args) {
         Temperature t = new Temperature();
     }
-
 }

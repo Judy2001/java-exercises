@@ -1,12 +1,17 @@
 package org.launchcode.java.demos.java4python;
 
+
 import java.util.Scanner;
 
 /**
  * Created by LaunchCode
  */
+
 public class DayPrinter {
+
+
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
         System.out.println("Enter an integer: ");
         int dayNum = in.nextInt();
