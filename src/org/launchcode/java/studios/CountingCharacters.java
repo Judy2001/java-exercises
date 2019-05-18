@@ -17,6 +17,7 @@ public class CountingCharacters {
         HashMap<Character, Integer> counts = new HashMap<>();
 
         char[] charactersInString = text.toCharArray();
+
         for (char c : charactersInString) { //for c in charactersInString
             int x = 1;
 

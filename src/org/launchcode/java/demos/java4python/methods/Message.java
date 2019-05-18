@@ -3,6 +3,7 @@ package org.launchcode.java.demos.java4python.methods;
 /**
  * Created by LaunchCode
  */
+
 public class Message {
 
     public static String getMessage(String language) {
@@ -10,7 +11,7 @@ public class Message {
         if (language.equals("sp")) {
             return "Hola Mundo";
         } else if (language.equals("fr")) {
-            return "Bonjour le monde";
+            return "Bonjour le Monde";
         } else {
             return "Hello World";
         }
