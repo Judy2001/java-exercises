@@ -28,10 +28,8 @@ public class FiveLetterWords {
             if (word.length() == 5) {
                 flws.add(word);
             }
-
         }
+
         System.out.println("The five-letter words in this list: " + flws);
-
     }
-
 }

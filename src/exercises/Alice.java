@@ -24,7 +24,5 @@ public class Alice {
         } else {
             System.out.println("Your term '" + searchTerm + "' does not appear in the sentence.");
         }
-
     }
-
 }

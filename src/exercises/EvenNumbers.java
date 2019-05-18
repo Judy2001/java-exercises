@@ -32,5 +32,4 @@ public class EvenNumbers {
         }
         System.out.println("The even numbers in this list: " + evenNumbers);
     }
-
 }

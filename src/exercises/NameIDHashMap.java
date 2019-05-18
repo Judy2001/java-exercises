@@ -1,8 +1,10 @@
 package exercises;
 
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
 
 public class NameIDHashMap {
 
@@ -16,16 +18,14 @@ public class NameIDHashMap {
 
         // Get student names and grades
         int newID = 0;
-        do {
 
+        do {
             newStudent = in.nextLine();
 
             if (!newStudent.equals("")) {
                 newID = newID + 1;
                 students.put(newID, newStudent);
-
             }
-
         } while(!newStudent.equals(""));
 
         // Print class roster
@@ -34,7 +34,5 @@ public class NameIDHashMap {
         for (Map.Entry<Integer, String> student : students.entrySet()) {
             System.out.println(student.getKey() + " " + student.getValue());
         }
-
     }
-
 }

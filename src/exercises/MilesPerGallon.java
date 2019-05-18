@@ -16,7 +16,5 @@ public class MilesPerGallon {
 
         double milesPerGallon = m / g;
         System.out.println("Your gas mileage is " + milesPerGallon);
-
     }
-
 }

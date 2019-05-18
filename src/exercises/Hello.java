@@ -12,5 +12,4 @@ public class Hello {
         String name = s.nextLine();
         System.out.println("Hello " + name + "!");
     }
-
 }
