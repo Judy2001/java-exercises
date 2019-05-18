@@ -3,6 +3,7 @@ package org.launchcode.java.demos.java4python.cats;
 /**
  * Created by LaunchCode
  */
+
 public class Cat {
 
     // We set these parameters to "protected" so all classes in the same package
@@ -10,13 +11,14 @@ public class Cat {
     protected boolean tired = true;
     protected boolean hungry = true;
 
+
     // A cat is rested and hungry after it sleeps
     public void sleep() {
         this.tired = false;
         this.hungry = true;
     }
 
-    //
+
     public void eat() {
 
         // eating when not hungry makes a cat sleepy
@@ -27,6 +29,7 @@ public class Cat {
         this.hungry = false;
     }
 
+
     // sleepy cats say prrrr, energized cats say meow!
     public String noise() {
         if (this.tired) {
@@ -35,6 +38,7 @@ public class Cat {
             return "meow";
         }
     }
+
 
     public static void main(String[] args) {
         Cat tom = new Cat();

@@ -3,12 +3,14 @@ package org.launchcode.java.demos.java4python.cats;
 /**
  * Created by LaunchCode
  */
+
 public class Tiger extends Cat {
 
 
     public boolean angry() {
         return this.tired && this.hungry;
     }
+
 
     public String noise() {
         if (this.angry()) {
@@ -17,6 +19,7 @@ public class Tiger extends Cat {
             return super.noise();
         }
     }
+
 
     public static void main(String[] args) {
         Tiger hobbes = new Tiger();

@@ -3,9 +3,11 @@ package org.launchcode.java.demos.java4python.cats;
 /**
  * Created by LaunchCode
  */
+
 public class HouseCat extends Cat {
 
     private String name;
+
 
     public HouseCat(String name) {
         // first initialize as a normal Cat
@@ -14,9 +16,11 @@ public class HouseCat extends Cat {
         this.name = name;
     }
 
+
     public boolean satisfied() {
         return !this.hungry && !this.tired;
     }
+
 
     public String noise() {
         if (this.satisfied()) {
@@ -26,9 +30,11 @@ public class HouseCat extends Cat {
         }
     }
 
+
     public void purr() {
         System.out.println("I'm a HouseCat");
     }
+
 
     public static void main(String[] args) {
 
