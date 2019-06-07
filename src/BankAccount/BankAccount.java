@@ -9,15 +9,18 @@ public class BankAccount {
     private int accountId;
     private double balance;
 
+
     public BankAccount(int id, double balance) {
          this.accountId = id;
          this.balance = balance;
     }
 
+
     public BankAccount(int id) {
         this.accountId = id;
         this.balance = 0;
     }
+
 
     public double deposit(double amount) {
         if(amount > 0) {
@@ -26,6 +29,7 @@ public class BankAccount {
         return this.balance;
     }
 
+
     public double withdraw(double amount) {
         if(amount > 0 && amount < this.balance) {
             this.balance = this.balance - amount;
@@ -33,17 +37,22 @@ public class BankAccount {
         return this.balance;
     }
 
+
     public double getBalance() {
         return balance;
     }
+
 
     public int getAccountId() {
         return accountId;
     }
 
+
     public String toString() {
         return "Account: " + this.accountId + ", Balance: " + this.balance;
     }
+
+
 //
 //    @Override
 //    public boolean equals(Object o) {
@@ -53,10 +62,12 @@ public class BankAccount {
 //        return accountId == that.accountId && Double.compare(that.balance, balance) == 0;
 //    }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(accountId, balance);
     }
+
 
     public static void main(String[] args) {
         BankAccount account1 = new BankAccount(1,1000);
